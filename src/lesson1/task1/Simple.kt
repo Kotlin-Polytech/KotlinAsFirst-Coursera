@@ -95,7 +95,10 @@ fun trackLength(x1: Double, y1: Double, x2: Double, y2: Double): Double = TODO()
  * Пользователь задает целое число, большее 100 (например, 3801).
  * Определить третью цифру справа в этом числе (в данном случае 8).
  */
-fun thirdDigit(number: Int): Int = TODO()
+fun thirdDigit(number: Int): Int {
+    val index = 2
+    return ((number / 10.toDouble().pow(index.toDouble())) % 10).toInt()
+}
 
 /**
  * Простая
