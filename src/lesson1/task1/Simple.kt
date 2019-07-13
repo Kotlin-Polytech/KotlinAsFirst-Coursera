@@ -100,6 +100,8 @@ fun thirdDigit(number: Int): Int {
     return ((number / 10.toDouble().pow(index.toDouble())) % 10).toInt()
 }
 
+fun thirdDigitCase2(number: Int): Int = (number / 100) % 10
+
 /**
  * Простая
  *

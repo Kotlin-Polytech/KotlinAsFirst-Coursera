@@ -86,6 +86,14 @@ class Tests {
 
     @Test
     @Tag("Easy")
+    fun thirdDigitCase2() {
+        assertEquals(8, thirdDigitCase2(3801))
+        assertEquals(1, thirdDigitCase2(100))
+        assertEquals(0, thirdDigitCase2(1000))
+    }
+
+    @Test
+    @Tag("Easy")
     fun travelMinutes() {
         assertEquals(216, travelMinutes(9, 25, 13, 1))
         assertEquals(1, travelMinutes(21, 59, 22, 0))
