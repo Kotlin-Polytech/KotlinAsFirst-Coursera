@@ -82,7 +82,11 @@ class Tests {
         assertEquals(8, thirdDigit(3801))
         assertEquals(1, thirdDigit(100))
         assertEquals(0, thirdDigit(1000))
+        assertEquals(5, thirdDigit(4567))
+        assertEquals(8, thirdDigit(2329858))
+        assertEquals(8, thirdDigit(2329858))
     }
+
 
     @Test
     @Tag("Easy")
